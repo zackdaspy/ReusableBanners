@@ -27,13 +27,13 @@ function App() {
   return (
     <div className="App">
       <ul className="banner-card-list">
-        {bannerCardsList.map(item => (
+        {bannerCardsList.map(eachItem => (
           <BannerCardItem
-            key={item.id}
-            id={item.id}
-            headerText={item.headerText}
-            description={item.description}
-            className={item.className}
+            key={eachItem.id}
+            id={eachItem.id}
+            headerText={eachItem.headerText}
+            description={eachItem.description}
+            className={eachItem.className}
           />
         ))}
       </ul>

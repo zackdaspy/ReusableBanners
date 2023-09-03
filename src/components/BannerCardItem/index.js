@@ -1,6 +1,6 @@
 import './index.css'
 
-const BannerCardItem = ({id, headerText, description, className}) => (
+const BannerCardItem = ({ id, headerText, description, className }) => (
   <li className={className} key={id}>
     <h2>{headerText}</h2>
     <p>{description}</p>
